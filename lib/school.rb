@@ -16,8 +16,7 @@ class School
   end
   
   def grade(grade)
-    arr = @roster.values_at(grade)
-    arr
+    @roster.values_at(grade).flatten
   end
   
 end
