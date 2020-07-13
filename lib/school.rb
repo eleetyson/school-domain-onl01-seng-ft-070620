@@ -2,8 +2,8 @@ class School
   
   ROSTER = {}
   
-  def initialize()
-    
+  def initialize(school)
+    @school = school
   end
   
 end
