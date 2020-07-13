@@ -20,7 +20,7 @@ class School
   end
   
   def sort
-    @roster.each {|k, v| v.sort}.keys.sort!
+    @roster.each {|k, v| v.sort}
   end
   
 end
