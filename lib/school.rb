@@ -1,4 +1,3 @@
-require 'pry'
 class School
   attr_reader :roster
   
@@ -23,7 +22,6 @@ class School
   def sort
     @roster.each do |k, v|
       @roster[k] = v.sort
-      binding.pry
     end
   end
   
