@@ -16,7 +16,7 @@ class School
   end
   
   def grade(grade)
-    
+    @roster.select
   end
   
 end
