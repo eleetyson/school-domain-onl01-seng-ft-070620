@@ -16,7 +16,7 @@ class School
   end
   
   def grade(grade)
-    @roster.select.values_at()
+    @roster.select {|k, v| }
   end
   
 end
