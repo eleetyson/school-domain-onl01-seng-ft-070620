@@ -7,7 +7,7 @@ class School
   end
   
   def add_student()
-    
+    @roster[] = 
   end
   
 end
